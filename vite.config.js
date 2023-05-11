@@ -7,5 +7,6 @@ export default defineConfig({
   build: {
     outDir: "docs",
   },
+  base: "/MIT-react-routing/",
   plugins: [react()],
 });
