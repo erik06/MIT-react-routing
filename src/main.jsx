@@ -14,7 +14,7 @@ import Index from "./routes/index";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "MIT-react-routing/",
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
